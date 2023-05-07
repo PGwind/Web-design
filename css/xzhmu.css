@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #004098;
+  padding: 20px 10px;
+}
+
+/* logo样式 */
+.logo {
+  max-width: 150px;
+}
+
+/* 标语图片样式 */
+.slogan {
+  max-width: 300px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* 主体内容样式 */
+.main {
+  max-width: 1200px;
+  margin: 0 10px 0 100px;
+  display: flex;
+}
+
+/* 学校图片样式 */
+.school-img {
+  width: 570px;
+  height: 380px;
+  margin: 20px 20px 20px 0;
+}
+
+/* 介绍文字样式 */
+.introduction {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-left: 25px;
+}
+
+.introduction1 {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  text-shadow: 2px 2px #000;
+  color: burlywood;
+}
+
+article::first-letter { 
+  font-size: 2em;
+  color: aqua;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #ccc;
+}
+
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  font-weight: 600;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #ff69b4;
+}
