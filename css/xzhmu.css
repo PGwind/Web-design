@@ -13,6 +13,8 @@ body {
 
 /* logo样式 */
 .logo {
+  margin-left: 10px;
+  height: 40px;
   max-width: 150px;
 }
 
@@ -26,7 +28,7 @@ body {
 /* 主体内容样式 */
 .main {
   max-width: 1200px;
-  margin: 0 10px 0 100px;
+  margin: auto;
   display: flex;
 }
 
@@ -34,14 +36,14 @@ body {
 .school-img {
   width: 570px;
   height: 380px;
-  margin: 20px 20px 20px 0;
+  margin: 40px 100px 20px 20px;
 }
 
 /* 介绍文字样式 */
 .introduction {
   font-size: 18px;
   line-height: 1.5;
-  margin-left: 25px;
+  margin: auto;
 }
 
 .introduction1 {
